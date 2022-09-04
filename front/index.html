@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <title>CRUD Operations</title>
+</head>
+<body class="bg-dark text-white pt-5">
+    <div class="w-75 m-auto containerP p-5 mb-4">
+      <h1 class="text-center mb-5">CRUD Operations With Node.js API</h1>
+  
+      <label for="pn">Product Name</label>
+      <input type="text" class="form-control" id="pn">
+  
+      <label class="mt-3" for="pp">Product Price</label>
+      <input type="number" class="form-control" id="pp">
+
+      <label class="mt-3" for="pd">Product Description</label>
+      <textarea class="form-control" id="pd"></textarea>
+  
+      <button onclick="getInput();" class="btn btn-primary btn-lg mt-4" id="addProduct">ADD</button>
+      <button onclick="getUpdate();" class="btn btn-warning btn-lg mt-4 d-none" id="update">Update</button>
+    </div>
+
+  
+    <div class="w-75 m-auto">
+  
+      <input type="search" placeholder="Search By Name..." id="search" class="form-control my-5 p-2 ">
+
+      <table class="table p-5 text-white containerP">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Product Name</th>
+            <th>Product Price</th>
+            <th>Product Description</th>
+            <th>Update</th>
+            <th>Delete</th>
+          </tr>
+        </thead>
+        <tbody id="data">
+        </tbody>
+      </table>
+    </div>
+  
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/sweetalert2.min.js"></script>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <script src="js/main2.js"></script>
+</body>
+</html>

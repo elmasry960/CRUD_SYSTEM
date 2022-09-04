@@ -1,0 +1,43 @@
+body {
+  background-image: url(https://miro.medium.com/max/1400/0*BYrTznlM6Ak9WikL);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* backdrop-filter: sepia(100%); */
+}
+
+.containerP {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+thead tr {
+  padding: 1rem;
+}
+th {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+tbody td{
+  font-size: 1.2rem;
+}
+
+.valid {
+  color: #212529;
+  background-color: #fff;
+  border-color: #63a1ff;
+  outline: 0;
+  box-shadow: 0 0 0 0.50rem rgb(13 110 253 / 25%);
+}
+.not-valid {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ff6363;
+  outline: 0;
+  box-shadow: 0 0 0 0.50rem rgba(253, 13, 13, 0.25);
+}
+
